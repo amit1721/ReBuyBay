@@ -1,0 +1,249 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ReBuyBay</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,300;0,400;0,500;0,600;1,900&display=swap" rel="stylesheet">
+    <!-- Here we add a link for bootstrap -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+
+</head>
+
+<body>
+<!---- Home page and navbar ---->
+    <div class="header">
+        <div class="container">
+            <div class="navbar">
+                <div class="logo">
+                    <img src="images/logo.png" alt="" width="200px">
+                </div>
+            <nav>
+                <ul id="MenuItem">
+                    <li><a href="">Home</a></li>
+                    <li><a href="">Product</a></li>
+                    <li><a href="">About</a></li>
+                    <li><a href="">Contact</a></li>
+                    <li><a href="">Account</a></li>
+                </ul>
+            </nav>
+            <img src="images/cart.png" width="30px" height="30px" alt="">
+            <img src="images/menu.png" class="menu-icon" onclick="menutoggle()">
+            </div>
+
+            <div class="row">
+                <div class="col-2">
+                    <h1>Find old products<br>Near You</h1>
+                    <p>Register with us using your organisation id<br> Buy/Sell used items like
+                    calculator, drafter, laptops, charger, mobile, camera, and much more.</p>
+                    <a href="" class="btn">Explore Now &#x27A4;</a>
+                </div>
+                <div class="col-2">
+                    <img src="images/home.png" alt="">
+
+                </div>
+            </div>
+        </div>
+    </div>    
+<!--x-- Home page and navbar --x-->
+
+<!------ Feature Categories ------->
+    <!-- <div class="categories">
+        <div class="small-container">
+            <div class="row">
+                <div class="col-3">
+                    <img src="images/category-1.jpg" alt="">
+                </div>
+                <div class="col-3">
+                    <img src="images/category-2.jpg" alt="">
+                </div>
+                <div class="col-3">
+                    <img src="images/category-3.jpg" alt="">
+                </div>
+            </div>
+        </div>
+    </div> -->
+<!----x-- Feature Categories --x----->
+
+<!------ Feature Products ------->
+    <div class="small-container">
+        <h2 class="title">Featured Products</h2>
+        <div class="row">
+            <div class="col-4">
+                <img src="images/mi-phone.jpg" alt="">
+                <h4>Mi Mobile Phone</h4>
+                <p>$50.00</p>
+            </div>
+            <div class="col-4">
+                <img src="images/casio.jpg" alt="">
+                <h4>Casio Calculator M-100</h4>
+                <p>$80.00</p>
+            </div>
+            <div class="col-4">
+                <img src="images/t420.jpg" alt="">
+                <h4>Lenovo-Thinkpad T-420</h4>
+                <p>$60.00</p>
+            </div>
+            <div class="col-4">
+                <img src="images/cattle.jpg" alt="">
+                <h4>Cattle</h4>
+                <p>$30.00</p>
+            </div>
+        </div>
+        <h2 class="title">Latest Product</h2>
+        
+        <div class="row">
+            
+        </div>
+    </div>
+
+    <!---- Offers ---->
+    <!-- <div class="offer">
+        <div class="small-container">
+            <div class="row">
+                <div class="col-2">
+                    <img src="images/exclusive.png" class="offer-img" alt="">
+                </div>
+                <div class="col-2">
+                    <p>Exclusively available on KIET store</p>
+                    <h1>Smart Hand Band</h1>
+                    <small>The MI hand band Lorem ipsum dolor, sit amet consectetur adipisicing elit. Architecto, quia minus? Veniam expedita, dolores consequatur deserunt, reprehenderit totam officia cupiditate magnam voluptatem harum est facilis quis pariatur provident possimus cum.</small>
+                    <a href="" class="btn">Buy Now &#x27A4;</a>
+                </div>
+            </div>
+        </div>
+    </div> -->
+    <!--x-- Offers --x-->
+
+    <!---- Testinomials ---->
+    <div class="testinomials">
+        <div class="small-container">
+            <div class="row">
+                <div class="col-3">
+                    <i class="fa fa-quote-left"></i>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ad quo sit rerum enim ipsum nisi temporibus earum sed, consectetur numquam nemo mollitia quia minima sint error illo obcaecati quisquam odit?</p>
+                    <div class="rating">
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star" ></i>
+                        <i class="fa fa-star" ></i>
+                    </div>
+                    <img src="images/user-1.png" alt="">
+                    <h3>Aron</h3>
+                </div>
+                <div class="col-3">
+                    <i class="fa fa-quote-left"></i>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ad quo sit rerum enim ipsum nisi temporibus earum sed, consectetur numquam nemo mollitia quia minima sint error illo obcaecati quisquam odit?</p>
+                    <div class="rating">
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star" ></i>
+                        <i class="fa fa-star" ></i>
+                        <i class="fa fa-star" ></i>
+                        <i class="fa fa-star" ></i>
+                    </div>
+                    <img src="images/user-2.png" alt="">
+                    <h3>Tesla</h3>
+                </div>
+                <div class="col-3">
+                    <i class="fa fa-quote-left"></i>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ad quo sit rerum enim ipsum nisi temporibus earum sed, consectetur numquam nemo mollitia quia minima sint error illo obcaecati quisquam odit?</p>
+                    <div class="rating">
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star" ></i>
+                        <i class="fa fa-star" ></i>
+                        <i class="fa fa-star-half-o" ></i>
+                    </div>
+                    <img src="images/user-3.png" alt="">
+                    <h3>Roohemia</h3>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--x-- Testinomials --x-->
+    
+    <!-- -- Brands -- -->
+    <!-- <div class="brands">
+        <div class="small-container">
+            <div class="row">
+                <div class="col-5">
+                    <img src="images/logo-coca-cola.png" alt="">
+                </div>
+                <div class="col-5">
+                    <img src="images/logo-godrej.png" alt="">
+                </div>
+                <div class="col-5">
+                    <img src="images/logo-oppo.png" alt="">
+                </div>
+                <div class="col-5">
+                    <img src="images/logo-paypal.png" alt="">
+                </div>
+                <div class="col-5">
+                    <img src="images/logo-philips.png" alt="">
+                </div>
+            </div>
+        </div>
+    </div> -->
+    <!--x-- Brands --x -->
+
+    <!-- --Footer -- -->
+    <div class="footer">
+        <div class="container">
+            <div class="row">
+                <div class="footer-col-1">
+                    <h3>Download Our App</h3>
+                    <p>Download App for Android and ios mobile phone.</p>
+                    <div class="app-logo">
+                        <img src="images/play-store.png" alt="">
+                        <img src="images/app-store.png" alt="">
+                    </div>
+                </div>
+                <div class="footer-col-2">
+                    <img src="images/logo-white.png" alt="">
+                    <p>Our purpose is to sustainability make the pleasure and benefits of sports acessible to the many</p>
+                </div>
+                <div class="footer-col-3">
+                    <h3>Useful Link(s)</h3>
+                    <ul>
+                        <li>Coupans</li>
+                        <li>Blog Post</li>
+                        <li>Return Policy</li>
+                        <li>Join Affiliate</li>
+                    </ul>
+                </div>
+                <div class="footer-col-4">
+                    <h3>Follow Us</h3>
+                    <ul>
+                        <li><i class="fa fa-facebook-square"></i></li>
+                        <li><i class="fa fa-twitter-square"></i></li>
+                        <li><i class="fa fa-instagram"></i></li>
+                        <li><i class="fa fa-youtube-play"></i></li>
+                    </ul>
+                </div>
+            </div>
+            <hr>
+            <p class="Copyright">Copyright 2020 - Free Sources</p>
+        </div>
+    </div>
+    <!--x--Footer --x-->
+
+
+    <!-- JavaScript For ToogleMenu -->
+    <script>
+        var MenuItem = document.getElementById("MenuItem");
+        MenuItem.style.maxHeight = "0px";
+
+        function menutoggle(){
+            if(MenuItem.style.maxHeight == "0px")
+                {
+                    MenuItem.style.maxHeight = "200px";
+                }
+            else{
+                MenuItem.style.maxHeight = "0px";
+            }
+        }
+    </script>
+
+
+
+</body>
+</html>
